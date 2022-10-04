@@ -11,5 +11,8 @@
             "email": "ahmadfadlydziljalal@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts" : {
+        "serve" : "php -S localhost:8080"
+    }
 }
