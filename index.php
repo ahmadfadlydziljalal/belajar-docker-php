@@ -6,3 +6,4 @@ use App\HelloWorld;
 
 $helloWorld = new HelloWorld();
 echo $helloWorld->say();
+echo $helloWorld->phpInfo();

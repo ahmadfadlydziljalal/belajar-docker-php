@@ -8,4 +8,9 @@ class  HelloWorld
     {
         return "Hello World" . PHP_EOL;
     }
+
+    public function phpInfo()
+    {
+        return phpinfo();
+    }
 }
