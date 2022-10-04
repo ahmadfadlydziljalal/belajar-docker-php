@@ -1,0 +1,7 @@
+FROM php:8.1.5-alpine3.15
+
+# Copy file dari host ke dalam container
+COPY . .
+
+EXPOSE 8080
+CMD [ "php", "-S", "0.0.0.0:8080" ]
